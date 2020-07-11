@@ -6,7 +6,8 @@
   zypper:
     name: "{{ nodejs_suse_packages }}"
     state: present
-    force: yes
+    update_cache: yes
+    disable_gpg_check: yes
   become: true
   tags:
     - nodejs
