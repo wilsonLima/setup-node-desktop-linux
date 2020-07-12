@@ -29,7 +29,7 @@ Tags da Role
 Variáveis da Role 
 --------------
 
-- nodejs_version: Versão do Nodejs (Válida somente para distribuições baseados no Debian e Red Hat). Possíveis valores são 8, 10, 11, 12 ou 13, o valor padrão: 13.
+- nodejs_version: Versão do Nodejs (Válida somente para distribuições baseados no Debian e Red Hat). Possíveis valores são 8, 10, 11, 12, 13 ou 14, o valor padrão: 12.
 
 
 Dependências da Role 
@@ -61,13 +61,13 @@ Exemplo de uso da Role, com as configurações padrão:
 
     - hosts: desktop
       roles:
-         - setup-desktop-dev-linux
+         - setup-node-desktop-linux
 
 Exemplo de uso da Role com variáveis:
 
     - hosts: desktop
       roles:
-         - { role: setup-desktop-dev-linux, root_dir: 'developer' }
+         - { role: setup-node-desktop-linux, nodejs_version: '13' }
 
 
 Exemplo de Comandos
