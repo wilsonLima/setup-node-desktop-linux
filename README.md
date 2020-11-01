@@ -29,7 +29,7 @@ Tags da Role
 Variáveis da Role 
 --------------
 
-- nodejs_version: Versão do Nodejs (Válida somente para distribuições baseados no Debian e Red Hat). Possíveis valores são 8, 10, 11, 12, 13 ou 14, o valor padrão: 12.
+- nodejs_version: Versão do Nodejs (Válida somente para distribuições baseados no Debian e Red Hat). Possíveis valores são 8, 10, 11, 12, 13, 14 ou 15, o valor padrão: 12.
 
 
 Dependências da Role 
@@ -85,4 +85,4 @@ Comando para executar a tag "eslint" (em caso de uso de tags, a tag "main" é ob
 License
 -------
 
-MIT License
+MIT
