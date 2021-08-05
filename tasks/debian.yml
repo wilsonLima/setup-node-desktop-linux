@@ -17,11 +17,19 @@
    - nodejs
 
 
+- name: "Atualizando apt cache"
+  apt: 
+    update_cache: yes 
+    cache_valid_time: 7200
+  become: true
+  tags:
+    - nodejs
+
+
 - name: "Instalando o Node.js versão {{ nodejs_version }}"
   apt:
     name: nodejs
     state: present
-    update_cache: yes
   become: true
   tags:
     - nodejs
