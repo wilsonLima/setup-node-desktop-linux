@@ -29,7 +29,7 @@ Tags da Role
 Variáveis da Role 
 --------------
 
-- nodejs_version: Versão do Nodejs (Válida somente para distribuições baseados no Debian e Red Hat). Possíveis valores são 8, 10, 11, 12, 13, 14, 15, 16 ou 17, o valor padrão: 16.
+- nodejs_version: Versão do Nodejs (Válida somente para distribuições baseados no Debian e Red Hat). Possíveis valores são 8, 10, 11, 12, 13, 14, 15, 16, 17 ou 18, o valor padrão: 16.
 
 
 Dependências da Role 
