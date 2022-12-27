@@ -2,7 +2,7 @@
 
 # Instalando o Node.js
 
-- name: "Instalando o Node.js"
+- name: "Instalando o Node.js versão {{ nodejs_suse_version }}"
   zypper:
     name: "{{ nodejs_suse_packages }}"
     state: present
