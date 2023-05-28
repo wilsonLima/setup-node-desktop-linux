@@ -6,12 +6,12 @@ Role do Ansible com passos para a instalação de pacotes de Desenvolvimento Nod
 Distribuições Suportadas pela Role
 ------------
 
-- Fedora 30 ou inferior
-- Linux Mint LMDE 3 ou superior
-- Linux Mint 19.2 ou inferior
-- openSUSE Leap 15.0 ou superior
+- Fedora 37 ou inferior
+- Linux Mint LMDE 5 ou superior
+- Linux Mint 21 ou inferior
+- openSUSE Leap 15.4 ou superior
 - openSUSE Tumbleweed
-- Ubuntu 18.04 ou superior
+- Ubuntu 22.10 ou superior
 
 
 Tags da Role 
@@ -29,7 +29,7 @@ Tags da Role
 Variáveis da Role 
 --------------
 
-- nodejs_version: Versão do Nodejs (Válida somente para distribuições baseados no Debian e Red Hat). Possíveis valores são 8, 10, 11, 12, 13, 14, 15, 16, 17, 18 e 19, o valor padrão: 18.
+- nodejs_version: Versão do Nodejs (Válida somente para distribuições baseados no Debian e Red Hat). Possíveis valores são 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 e 20, o valor padrão: 20.
 
 
 Dependências da Role 
