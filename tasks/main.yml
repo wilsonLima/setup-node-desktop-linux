@@ -22,6 +22,7 @@
 
 
 - name: "Incluindo tarefas de configuração do NodeJs"
+  when: node_unsupported_os is not defined
   include_tasks: "config_nodejs.yml"
   tags: 
    - main

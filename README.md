@@ -7,10 +7,7 @@ Distribuições Suportadas pela Role
 ------------
 
 - Fedora 37 ou inferior
-- Linux Mint LMDE 5 ou superior
 - Linux Mint 21 ou inferior
-- openSUSE Leap 15.4 ou superior
-- openSUSE Tumbleweed
 - Ubuntu 22.10 ou superior
 
 
@@ -67,7 +64,7 @@ Exemplo de uso da Role com variáveis:
 
     - hosts: desktop
       roles:
-         - { role: setup-node-desktop-linux, nodejs_version: '13' }
+         - { role: setup-node-desktop-linux, nodejs_version: '18' }
 
 
 Exemplo de Comandos
