@@ -5,13 +5,14 @@
   get_url:
    url: "https://deb.nodesource.com/setup_{{ nodejs_versions[nodejs_version] }}"
    dest: "/tmp/setup_nodejs.sh"
+   mode: 0755
   become: true
   tags:
    - nodejs
 
 
 - name: "Executando o Script de Instalacao do Node.js versão {{ nodejs_version }}"
-  command: "bash /tmp/setup_nodejs.sh"
+  shell: "/tmp/setup_nodejs.sh"
   become: true
   tags:
    - nodejs
